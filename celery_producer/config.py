@@ -40,7 +40,7 @@ CELERY_DEFAULT_ROUTING_KEY = 'task.default'
 
 CELERY_ROUTES = {
     # app.add 的消息会进入web_tasks队列
-    'celery_producer.tasks.add': {
+    'celery_producer.tasks.div': {
         'queue': 'web_tasks',
         'routing_key': 'web.add'
     }
