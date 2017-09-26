@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pip install "celery[librabbitmq, redis, msgpack]"
+#pip install "celery[librabbitmq, redis, msgpack]"
 
 cd ..
 # 启动worker，等着被调用
